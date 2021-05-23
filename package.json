@@ -1,0 +1,73 @@
+{
+  "name": "vue-top-fixed-navbar",
+  "version": "0.1.1",
+  "private": false,
+  "keywords": [
+    "Vue2",
+    "Vuejs",
+    "sticky-header",
+    "fixed-header",
+    "vue-fixed-header",
+    "vue-fixed-scroll-header",
+    "top-fixed-header"
+  ],
+  "homepage": "https://github.com/mohsin309/vue-top-fixed-navbar",
+  "bugs": "https://github.com/mohsin309/vue-top-fixed-navbar/issues",
+  "files": [
+    "dist/*"
+  ],
+  "author": {
+    "name": "Mohsin Ali",
+    "email": "mohsinali113245@gmail.com",
+    "url": "https://github.com/mohsin309/"
+  },
+  "main": "./dist/vue-top-fixed-navbar.umd.min.js",
+  "unpkg": "./dist/vue-top-fixed-navbar.umd.min.js",
+  "jsdelivr": "./dist/vue-top-fixed-navbar.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-top-fixed-navbar src/index.js",
+    "build:tgz": "vue-cli-service build --target lib --name vue-top-fixed-navbar src/index.js && npm pack",
+    "pack": "npm pack",
+    "lint": "vue-cli-service lint"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "externals": {
+    "vue": "vue"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
