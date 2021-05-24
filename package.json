@@ -1,6 +1,6 @@
 {
-  "name": "vue-top-fixed-navbar",
-  "version": "0.1.1",
+  "name": "vue-scroll-fixed-navbar",
+  "version": "0.1.2",
   "private": false,
   "keywords": [
     "Vue2",
@@ -11,8 +11,8 @@
     "vue-fixed-scroll-header",
     "top-fixed-header"
   ],
-  "homepage": "https://github.com/mohsin309/vue-top-fixed-navbar",
-  "bugs": "https://github.com/mohsin309/vue-top-fixed-navbar/issues",
+  "homepage": "https://github.com/mohsin309/vue-scroll-fixed-navbar",
+  "bugs": "https://github.com/mohsin309/vue-scroll-fixed-navbar/issues",
   "files": [
     "dist/*"
   ],
@@ -21,13 +21,13 @@
     "email": "mohsinali113245@gmail.com",
     "url": "https://github.com/mohsin309/"
   },
-  "main": "./dist/vue-top-fixed-navbar.umd.min.js",
-  "unpkg": "./dist/vue-top-fixed-navbar.umd.min.js",
-  "jsdelivr": "./dist/vue-top-fixed-navbar.umd.min.js",
+  "main": "./dist/vue-scroll-fixed-navbar.umd.min.js",
+  "unpkg": "./dist/vue-scroll-fixed-navbar.umd.min.js",
+  "jsdelivr": "./dist/vue-scroll-fixed-navbar.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-top-fixed-navbar src/index.js",
-    "build:tgz": "vue-cli-service build --target lib --name vue-top-fixed-navbar src/index.js && npm pack",
+    "build": "vue-cli-service build --target lib --name vue-scroll-fixed-navbar src/index.js",
+    "build:tgz": "vue-cli-service build --target lib --name vue-scroll-fixed-navbar src/index.js && npm pack",
     "pack": "npm pack",
     "lint": "vue-cli-service lint"
   },

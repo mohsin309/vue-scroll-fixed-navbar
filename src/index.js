@@ -1,11 +1,11 @@
-import VueTopFixedNavbar from './components/VueTopFixedNavbar'
+import VueScrollFixedNavbar from './components/VueScrollFixedNavbar'
 
 export {
-  VueTopFixedNavbar
+  VueScrollFixedNavbar
 }
 
 function registerComponents (Vue) {
-  Vue.component(`VueTopFixedNavbar`, VueTopFixedNavbar)
+  Vue.component(`VueScrollFixedNavbar`, VueScrollFixedNavbar)
 }
 
 const plugin = {

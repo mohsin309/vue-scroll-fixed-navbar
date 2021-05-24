@@ -7,11 +7,11 @@ Simple vue fixed header component
 With build systems
 
 ```
-npm install --save vue-top-fixed-navbar
+npm install --save vue-scroll-fixed-navbar
 ```
 
 ```
-yarn add vue-top-fixed-navbar
+yarn add vue-scroll-fixed-navbar
 ```
 
 ### To make the plugin available globally
@@ -19,20 +19,20 @@ yarn add vue-top-fixed-navbar
 In your `main.js`:
 
 ```javascript
-import VueTopFixedNavbar from "vue-top-fixed-navbar";
+import VueScrollFixedNavbar from "vue-scroll-fixed-navbar";
 
-Vue.use(VueTopFixedNavbar);
+Vue.use(VueScrollFixedNavbar);
 ```
 
 ### To include only in specific components
 
 ```javascript
-import {VueTopFixedNavbar} from "vue-top-fixed-navbar";
+import {VueScrollFixedNavbar} from "vue-scroll-fixed-navbar";
 
 export default {
     name: 'YourComponent',
     components: {
-        VueTopFixedNavbar
+        VueScrollFixedNavbar
     }
 }
 ````
@@ -41,9 +41,9 @@ export default {
 
 ```javascript
 <template>
-    <VueTopFixedNavbar>
+    <VueScrollFixedNavbar>
         your content
-    </VueTopFixedNavbar>
+    </VueScrollFixedNavbar>
 </template>
 ```
 

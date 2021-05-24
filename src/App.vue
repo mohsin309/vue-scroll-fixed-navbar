@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <VueTopFixedNavbar>
+    <VueScrollFixedNavbar>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -37,7 +37,7 @@
           </div>
         </div>
       </nav>
-    </VueTopFixedNavbar>
+    </VueScrollFixedNavbar>
     <div class="card" style="width: 18rem;">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -119,7 +119,7 @@
 export default {
   name: 'App',
   components: {
-    VueTopFixedNavbar: () => import('./components/VueTopFixedNavbar')
+    VueScrollFixedNavbar: () => import('./components/VueScrollFixedNavbar')
   }
 }
 </script>
