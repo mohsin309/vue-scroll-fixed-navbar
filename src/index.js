@@ -5,7 +5,7 @@ export {
 }
 
 function registerComponents (Vue) {
-  Vue.component('VueScrollFixedNavbar', VueScrollFixedNavbar)
+  Vue.component(`VueScrollFixedNavbar`, VueScrollFixedNavbar)
 }
 
 const plugin = {
