@@ -2,6 +2,10 @@
 
 A Simple vue scroll fixed navbar package which will help you to fix the top header or navbar while scrolling the screen.
 
+## Demo
+
+[![view vue-lazytube](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-scroll-fixed-navbar-jumxd?file=/src/App.vue)
+
 ## Installation
 
 With build systems
