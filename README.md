@@ -1,6 +1,6 @@
-# Vue Top Fixed Navbar
+# Vue Top Fixed Header
 
-A Simple vue fixed navbar component which will help you to fix the top header or navbar while scrolling the screen.
+A Simple vue fixed header package which will help you to fix the top header or navbar while scrolling the screen.
 
 ## Installation
 
