@@ -1,6 +1,6 @@
 {
   "name": "vue-scroll-fixed-navbar",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "keywords": [
     "Vue2",
@@ -34,7 +34,8 @@
   "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-styled-components": "^1.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

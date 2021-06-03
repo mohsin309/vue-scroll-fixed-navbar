@@ -1,12 +1,19 @@
 <template>
-  <div id="myHeader">
-    <slot></slot>
-  </div>
+  <Preview>
+    <div id="myHeader">
+      <slot></slot>
+    </div>
+  </Preview>
 </template>
 
 <script>
+import Preview from './common/Preview'
+
 export default {
   name: 'VueScrollFixedNavbar',
+  components: {
+    Preview
+  },
   created () {
     window.addEventListener('scroll', this.handleScroll)
   },
@@ -32,17 +39,3 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-#myHeader{
-  border:3px solid black;
-  padding: 10px;
-}
-.sticky {
-  width: 100%;
-  z-index: 999;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-</style>
