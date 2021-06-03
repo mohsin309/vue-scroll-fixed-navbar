@@ -34,6 +34,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+#myHeader{
+  border:3px solid black;
+  padding: 10px;
+}
 .sticky {
   width: 100%;
   z-index: 999;
