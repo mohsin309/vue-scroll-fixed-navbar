@@ -1,6 +1,6 @@
 # Vue Top Fixed Navbar
 
-Simple vue fixed header component
+A Simple vue fixed navbar component which will help you to fix the top header or navbar while scrolling the screen.
 
 ## Installation
 
@@ -21,7 +21,7 @@ In your `main.js`:
 ```javascript
 import VueScrollFixedNavbar from "vue-scroll-fixed-navbar";
 
-Vue.use(VueScrollFixedNavbar);
+Vue.component(VueScrollFixedNavbar);
 ```
 
 ### To include only in specific components

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'FixedHeader',
+  name: 'VueScrollFixedNavbar',
   mounted () {
     window.onscroll = function () {myFunction()}
     const header = document.getElementById('myHeader')
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="css" scoped>
+<style>
 .sticky {
   width: 100%;
   z-index: 999;
