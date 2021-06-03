@@ -21,7 +21,7 @@ In your `main.js`:
 ```javascript
 import VueScrollFixedNavbar from "vue-scroll-fixed-navbar";
 
-Vue.component(VueScrollFixedNavbar);
+Vue.use(VueScrollFixedNavbar);
 ```
 
 ### To include only in specific components
