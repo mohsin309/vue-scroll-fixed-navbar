@@ -51,6 +51,26 @@ export default {
 </template>
 ```
 
+## API
+
+### Props
+| Name | Type | Default Value | Description | Required |
+| ------ | ------ | ------ | ------ | ------ |
+| `isFixed` | `Boolean` | `true` | Defines whether to fixed the header or not. | `false` |
+
+
+## Example
+In order to stop fixing the navbar or header pass props
+
+```javascript
+<template>
+    <VueScrollFixedNavbar :isFixed="false">
+        your content
+    </VueScrollFixedNavbar>
+</template>
+```
+
+
 ## Open Source License
 
 You may use it under the terms of the [MIT Licenses](https://opensource.org/licenses/MIT)

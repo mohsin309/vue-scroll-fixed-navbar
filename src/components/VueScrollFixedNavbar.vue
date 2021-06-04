@@ -1,5 +1,5 @@
 <template>
-  <Preview>
+  <Preview :isFixed="isFixed">
     <div id="myHeader">
       <slot></slot>
     </div>
@@ -11,6 +11,12 @@ import Preview from './common/Preview'
 
 export default {
   name: 'VueScrollFixedNavbar',
+  props: {
+    isFixed: {
+      type: Boolean,
+      default: true
+    }
+  },
   components: {
     Preview
   },
