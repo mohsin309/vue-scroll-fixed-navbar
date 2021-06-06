@@ -4,7 +4,10 @@ A Simple vue scroll fixed navbar package which will help you to fix the top head
 
 ## Demo
 
-[![view vue-lazytube](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-scroll-fixed-navbar-jumxd?file=/src/App.vue)
+[![view vue-scroll-fixed-navbar](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-scroll-fixed-navbar-jumxd?file=/src/App.vue)
+
+## Buy Me a Coffee
+[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dseeratawan%26type%3Dpledges&style=for-the-badge)](https://patreon.com/mohsin_ali)
 
 ## Installation
 
